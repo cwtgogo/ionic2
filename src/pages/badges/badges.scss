@@ -1,0 +1,13 @@
+page-badges {
+    .badge-button{
+        position: relative;
+    }
+    .badge{
+        background-color: red;
+        color: white;
+        border-radius: 50%;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}

@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle >
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title >首页</ion-title>
+   
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+ <ion-list>
+    <button ion-item *ngFor="let item of items" (click)="itemSelected($event,item)" ion-start>
+     <span> {{item.name}}</span>
+     <span class="text-right"> <ion-icon name="arrow-forward"></ion-icon></span>
+    </button>
+ </ion-list>
+</ion-content>
