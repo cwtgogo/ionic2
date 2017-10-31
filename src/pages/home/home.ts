@@ -6,6 +6,12 @@ import { BadgesPage } from '../badges/badges';
 import { ButtonsPage } from '../buttons/buttons';
 import { CardsPage } from '../cards/cards';
 import { CheckboxPage } from '../checkbox/checkbox';
+import { DateTimePage } from '../date-time/date-time';
+import { FabsPage } from '../fabs/fabs';
+import { GesturesPage } from '../gestures/gestures';
+import { GridPage } from '../grid/grid';
+
+
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
@@ -22,10 +28,10 @@ export class HomePage {
 {name:'Buttons',href:ButtonsPage},   
 {name:'Cards',href:CardsPage},          
 {name:'Checkbox',href:CheckboxPage},
-{name:'DateTime',href:''},       
-{name:'FABs',href:''},   
-{name:'Gestures',href:''},   
-{name:'Grid',href:''},  
+{name:'DateTime',href:DateTimePage},       
+{name:'FABs',href:FabsPage},   
+{name:'Gestures',href:GesturesPage},   
+{name:'Grid',href:GridPage},  
 {name:'Icons',href:''},
 {name:'Inputs',href:''},       
 {name:'Lists',href:''},   

@@ -1,7 +1,8 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+
 /**
- * Generated class for the DateTimePage page.
+ * Generated class for the IconsPage page.
  *
  * See https://ionicframework.com/docs/components/#navigation for more info on
  * Ionic pages and navigation.
@@ -9,20 +10,16 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 @IonicPage()
 @Component({
-  selector: 'page-date-time',
-  templateUrl: 'date-time.html',
+  selector: 'page-icons',
+  templateUrl: 'icons.html',
 })
-export class DateTimePage {
-  public event = {
-    month: '1990-02-19',
-    timeStarts: '07:43',
-    timeEnds: '1990-02-20'
-  }
+export class IconsPage {
+
   constructor(public navCtrl: NavController, public navParams: NavParams) {
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad DateTimePage');
+    console.log('ionViewDidLoad IconsPage');
   }
 
 }

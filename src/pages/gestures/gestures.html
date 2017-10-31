@@ -14,5 +14,34 @@
 
 
 <ion-content padding>
-
+    <ion-card>
+        <ion-item (tap)="tapEvent($event)">
+          Tapped(轻点)：{{tap}} Times
+        </ion-item>
+    </ion-card>
+    <ion-card>
+      <ion-item (press)="pressEvent($event)">
+        Pressed(重按)：{{press}} Times
+      </ion-item>
+    </ion-card>
+    <ion-card>
+      <ion-item (pan)="panEvent($event)">
+        Pan():{{pan}} Times
+      </ion-item>
+    </ion-card>
+    <ion-card>
+      <ion-item (swipe)="swipeEvent($event)">
+        Swipe():{{swipe}} Times
+      </ion-item>
+    </ion-card>    
+    <ion-card>
+      <ion-item (rotate)="rotateEvent($event)">
+        Rotate():{{rotate}} Times
+      </ion-item>
+    </ion-card>   
+    <ion-card>
+      <ion-item (pinch)="PinchEvent($event)">
+        Pinch():{{pinch}} Times
+      </ion-item>
+    </ion-card> 
 </ion-content>
