@@ -21,7 +21,14 @@ import { DateTimePage } from '../pages/date-time/date-time';
 import { FabsPage } from '../pages/fabs/fabs';
 import { GesturesPage } from '../pages/gestures/gestures';
 import { GridPage } from '../pages/grid/grid';
-
+import { IconsPage } from '../pages/icons/icons';
+import { InputsPage } from '../pages/inputs/inputs';
+import { FixedInlineInputPage } from '../pages/fixed-inline-input/fixed-inline-input';
+import { FloatingInputPage } from '../pages/floating-input/floating-input';
+import { InlineInputPage } from '../pages/inline-input/inline-input';
+import { InsetInputPage } from '../pages/inset-input/inset-input';
+import { PlaceholderInputPage } from '../pages/placeholder-input/placeholder-input';
+import { StackedInputPage } from '../pages/stacked-input/stacked-input';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -47,8 +54,16 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FabsPage,
     GesturesPage,
     GridPage,
-    
+    IconsPage,
+    InputsPage,
+    FixedInlineInputPage,
+    FloatingInputPage,
+    InlineInputPage,
+    InsetInputPage,
+    PlaceholderInputPage,
+    StackedInputPage,
   ],
+
   imports: [
     BrowserModule,
     IonicModule.forRoot(MyApp),
@@ -74,6 +89,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     FabsPage,
     GesturesPage,
     GridPage,
+    IconsPage,
+    InputsPage,
+    FixedInlineInputPage,
+    FloatingInputPage,
+    InlineInputPage,
+    InsetInputPage,
+    PlaceholderInputPage,
+    StackedInputPage,
   ],
   providers: [
     StatusBar,

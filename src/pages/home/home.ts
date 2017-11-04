@@ -10,7 +10,8 @@ import { DateTimePage } from '../date-time/date-time';
 import { FabsPage } from '../fabs/fabs';
 import { GesturesPage } from '../gestures/gestures';
 import { GridPage } from '../grid/grid';
-
+import { IconsPage } from '../icons/icons';
+import { InputsPage } from '../inputs/inputs';
 
 @Component({
   selector: 'page-home',
@@ -32,8 +33,8 @@ export class HomePage {
 {name:'FABs',href:FabsPage},   
 {name:'Gestures',href:GesturesPage},   
 {name:'Grid',href:GridPage},  
-{name:'Icons',href:''},
-{name:'Inputs',href:''},       
+{name:'Icons',href:IconsPage},
+{name:'Inputs',href:InputsPage},       
 {name:'Lists',href:''},   
 {name:'Loading',href:''},   
 {name:'Menus',href:''},  
